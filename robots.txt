@@ -1,0 +1,22 @@
+# ═══════════════════════════════════════════════════════
+# HNBC Software Solutions Pvt Ltd - robots.txt
+# https://www.hnbcsoftware.com
+# ═══════════════════════════════════════════════════════
+
+User-agent: *
+Allow: /
+
+# Disallow admin / private paths
+Disallow: /api/
+Disallow: /backend/
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl delay for polite crawling
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://www.hnbcsoftware.com/sitemap.xml

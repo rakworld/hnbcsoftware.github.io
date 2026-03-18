@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HNBC Software Solutions Pvt Ltd | Enterprise IT Services Chennai, India</title>
+<meta name="description" content="HNBC Software Solutions – Enterprise-grade custom software development, cloud transformation, AI-powered solutions, DevOps and cybersecurity services from Chennai, India.">
+<meta name="keywords" content="enterprise software development Chennai, cloud solutions India, AI ML consulting, DevOps automation, HNBC Software">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.hnbcsoftware.com/">
+<meta property="og:title" content="HNBC Software Solutions Pvt Ltd | Enterprise IT Services">
+<meta property="og:description" content="Transforming businesses through intelligent software solutions – cloud, AI, DevOps and cybersecurity.">
+<meta property="og:image" content="https://www.hnbcsoftware.com/images/hnbc_logo.png">
+<meta property="og:url" content="https://www.hnbcsoftware.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HNBC Software Solutions Pvt Ltd">
+<meta name="twitter:description" content="Enterprise-grade software development, cloud transformation, and AI-powered solutions.">
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/hnbc_logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"HNBC Software Solutions Pvt Ltd","url":"https://www.hnbcsoftware.com","logo":"https://www.hnbcsoftware.com/images/hnbc_logo.png","description":"Enterprise-grade software development, cloud transformation, and AI-powered solutions.","address":{"@type":"PostalAddress","streetAddress":"Plot No 90, Thirumalai Nagar Annexe, 3rd Cross Street, Perungudi","addressLocality":"Chennai","postalCode":"600096","addressCountry":"IN"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-44-11110000","contactType":"customer service","email":"hello@hnbcsoftware.com"},"sameAs":["https://linkedin.com/company/hnbc-software-solutions","https://twitter.com/hnbcsoftware"]}
+</script>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav id="navbar" aria-label="Main Navigation">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="HNBC Home">
+      <img src="images/hnbc_logo.png" alt="HNBC Software Solutions" width="46" height="46">
+      <span class="nav-logo-text">HNBC <br><small>Software Solutions Pvt Ltd</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Desktop Navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="pages/about.html">About</a>
+      <div class="mega-parent">
+        <button aria-haspopup="true" aria-expanded="false">Services ▾</button>
+        <div class="mega-menu" role="menu">
+          <a href="pages/services.html#custom" class="mega-item" role="menuitem"><span class="mega-icon">💻</span><span class="mega-text"><h4>Custom Software</h4><p>Web apps, SaaS &amp; enterprise systems</p></span></a>
+          <a href="pages/services.html#cloud" class="mega-item" role="menuitem"><span class="mega-icon">☁️</span><span class="mega-text"><h4>Cloud Engineering</h4><p>AWS, Azure, Google Cloud</p></span></a>
+          <a href="pages/services.html#ai" class="mega-item" role="menuitem"><span class="mega-icon">🤖</span><span class="mega-text"><h4>AI &amp; Data Solutions</h4><p>ML, analytics, NLP</p></span></a>
+          <a href="pages/services.html#devops" class="mega-item" role="menuitem"><span class="mega-icon">⚙️</span><span class="mega-text"><h4>DevOps &amp; Automation</h4><p>CI/CD, Kubernetes, IaC</p></span></a>
+          <a href="pages/services.html#mobile" class="mega-item" role="menuitem"><span class="mega-icon">📱</span><span class="mega-text"><h4>Mobile Development</h4><p>iOS, Android, React Native</p></span></a>
+          <a href="pages/services.html#security" class="mega-item" role="menuitem"><span class="mega-icon">🔒</span><span class="mega-text"><h4>Cybersecurity</h4><p>Audits, compliance, architecture</p></span></a>
+        </div>
+      </div>
+      <a href="pages/solutions.html">Solutions</a>
+      <a href="pages/industries.html">Industries</a>
+      <a href="pages/case-studies.html">Case Studies</a>
+      <a href="pages/careers.html">Careers</a>
+      <a href="pages/blog.html">Blog</a>
+    </nav>
+    <div class="nav-right">
+      <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="pages/contact.html" class="btn btn-primary nav-cta">Get Consultation</a>
+      <button id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div id="mobile-menu" role="dialog" aria-label="Mobile Navigation">
+  <a href="index.html">Home</a>
+  <a href="pages/about.html">About Us</a>
+  <a href="pages/services.html">Services</a>
+  <a href="pages/solutions.html">Solutions</a>
+  <a href="pages/industries.html">Industries</a>
+  <a href="pages/case-studies.html">Case Studies</a>
+  <a href="pages/careers.html">Careers</a>
+  <a href="pages/blog.html">Blog</a>
+  <a href="pages/contact.html" style="color:var(--accent)">Contact Us →</a>
+</div>
+
+<!-- ═══════ HERO ═══════ -->
+<section id="hero" aria-label="Hero">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="orb-1 hero-orb" aria-hidden="true"></div>
+  <div class="orb-2 hero-orb" aria-hidden="true"></div>
+  <div class="orb-3 hero-orb" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <div class="hero-eyebrow"><span class="dot"></span>Enterprise Software Innovation</div>
+    <h1 class="hero-title">Transforming Businesses Through<br><span class="grad">Intelligent Software Solutions</span></h1>
+    <p class="hero-sub">Enterprise-grade software development, cloud transformation, and AI-powered solutions — engineered for scale, built for impact.</p>
+    <div class="hero-btns">
+      <a href="pages/contact.html" class="btn btn-primary btn-lg">Get Free Consultation →</a>
+      <a href="pages/services.html" class="btn btn-outline btn-lg">Explore Services</a>
+    </div>
+    <div class="hero-stats" aria-label="Company statistics">
+      <div class="hero-stat"><div class="num"><span data-counter="150" data-suffix="+">0+</span></div><div class="lbl">Projects Delivered</div></div>
+      <div class="hero-stat"><div class="num"><span data-counter="50" data-suffix="+">0+</span></div><div class="lbl">Enterprise Clients</div></div>
+      <div class="hero-stat"><div class="num"><span data-counter="8" data-suffix="+">0+</span></div><div class="lbl">Years Experience</div></div>
+      <div class="hero-stat"><div class="num"><span data-counter="98" data-suffix="%">0%</span></div><div class="lbl">Client Satisfaction</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PARTNER LOGOS ═══════ -->
+<section class="section-sm" style="background:var(--surface);" aria-label="Technology partners">
+  <div class="container">
+    <p class="text-center fade-up" style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--text-muted);margin-bottom:28px;">Trusted Technology Partners &amp; Platforms</p>
+    <div class="tech-logos fade-up fade-up-d1">
+      <span class="tech-logo-item">AWS</span>
+      <span class="tech-logo-item">Microsoft Azure</span>
+      <span class="tech-logo-item">Google Cloud</span>
+      <span class="tech-logo-item">Kubernetes</span>
+      <span class="tech-logo-item">Salesforce</span>
+      <span class="tech-logo-item">SAP</span>
+      <span class="tech-logo-item">Oracle</span>
+      <span class="tech-logo-item">Terraform</span>
+      <span class="tech-logo-item">Docker</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ SERVICES ═══════ -->
+<section class="section" style="background:var(--bg);" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label fade-up">What We Do</span>
+      <h2 class="section-title fade-up fade-up-d1" id="services-heading">Our Core <span>Services</span></h2>
+      <p class="section-sub mx-auto fade-up fade-up-d2">End-to-end software engineering and technology services designed to accelerate your digital transformation.</p>
+    </div>
+    <div class="services-grid">
+      <a href="pages/services.html#custom" class="service-card fade-up fade-up-d1" aria-label="Custom Software Development">
+        <div class="svc-icon" aria-hidden="true">💻</div>
+        <h3>Custom Software Development</h3>
+        <p>Bespoke web applications, SaaS platforms, and enterprise systems built with modern architectures and rigorous engineering practices.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+      <a href="pages/services.html#cloud" class="service-card fade-up fade-up-d2" aria-label="Cloud Engineering">
+        <div class="svc-icon" aria-hidden="true">☁️</div>
+        <h3>Cloud Engineering</h3>
+        <p>Cloud-native development, migration, and managed operations on AWS, Azure, and Google Cloud with FinOps best practices.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+      <a href="pages/services.html#ai" class="service-card fade-up fade-up-d3" aria-label="AI & Machine Learning">
+        <div class="svc-icon" aria-hidden="true">🤖</div>
+        <h3>AI &amp; Machine Learning</h3>
+        <p>Predictive analytics, NLP solutions, computer vision, and Generative AI integrations that turn your data into competitive advantage.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+      <a href="pages/services.html#mobile" class="service-card fade-up fade-up-d1" aria-label="Mobile App Development">
+        <div class="svc-icon" aria-hidden="true">📱</div>
+        <h3>Mobile App Development</h3>
+        <p>High-performance iOS, Android, and cross-platform apps (React Native, Flutter) with exceptional UX and enterprise-grade security.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+      <a href="pages/services.html#devops" class="service-card fade-up fade-up-d2" aria-label="DevOps & Automation">
+        <div class="svc-icon" aria-hidden="true">⚙️</div>
+        <h3>DevOps &amp; Automation</h3>
+        <p>CI/CD pipelines, infrastructure as code, Kubernetes orchestration, and platform engineering that ships software faster and reliably.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+      <a href="pages/services.html#security" class="service-card fade-up fade-up-d3" aria-label="Cybersecurity">
+        <div class="svc-icon" aria-hidden="true">🔒</div>
+        <h3>Cybersecurity</h3>
+        <p>Security audits, zero-trust architecture, compliance automation (ISO 27001, SOC 2, GDPR), and managed security operations.</p>
+        <span class="arrow">Learn more →</span>
+      </a>
+    </div>
+    <div class="text-center" style="margin-top:44px;">
+      <a href="pages/services.html" class="btn btn-outline-dark">View All Services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ COUNTERS ═══════ -->
+<section class="section counters-section" aria-label="Company achievements">
+  <div class="container">
+    <div class="counters-grid">
+      <div class="counter-box fade-up fade-up-d1">
+        <div class="counter-num"><span data-counter="150" data-suffix="+">0+</span></div>
+        <div class="counter-label">Projects Successfully Delivered</div>
+      </div>
+      <div class="counter-box fade-up fade-up-d2">
+        <div class="counter-num"><span data-counter="50" data-suffix="+">0+</span></div>
+        <div class="counter-label">Enterprise Clients Worldwide</div>
+      </div>
+      <div class="counter-box fade-up fade-up-d3">
+        <div class="counter-num"><span data-counter="200" data-suffix="+">0+</span></div>
+        <div class="counter-label">Technology Professionals</div>
+      </div>
+      <div class="counter-box fade-up fade-up-d4">
+        <div class="counter-num"><span data-counter="99" data-suffix="%">0%</span></div>
+        <div class="counter-label">On-Time Delivery Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ INDUSTRIES ═══════ -->
+<section class="section" style="background:var(--surface);" aria-labelledby="industries-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label fade-up">Domain Expertise</span>
+      <h2 class="section-title fade-up fade-up-d1" id="industries-heading">Industries We <span>Serve</span></h2>
+      <p class="section-sub mx-auto fade-up fade-up-d2">Deep domain knowledge across six critical industry verticals, enabling us to deliver solutions that truly fit your context.</p>
+    </div>
+    <div class="industries-grid" role="list">
+      <a href="pages/industries.html#finance"       class="industry-card fade-up fade-up-d1" role="listitem" aria-label="Finance and Banking"><span class="ind-icon" aria-hidden="true">🏦</span><span class="ind-title">Finance &amp; Banking</span></a>
+      <a href="pages/industries.html#healthcare"    class="industry-card fade-up fade-up-d2" role="listitem" aria-label="Healthcare"><span class="ind-icon" aria-hidden="true">🏥</span><span class="ind-title">Healthcare</span></a>
+      <a href="pages/industries.html#retail"        class="industry-card fade-up fade-up-d3" role="listitem" aria-label="Retail and eCommerce"><span class="ind-icon" aria-hidden="true">🛒</span><span class="ind-title">Retail &amp; eCommerce</span></a>
+      <a href="pages/industries.html#manufacturing" class="industry-card fade-up fade-up-d1" role="listitem" aria-label="Manufacturing"><span class="ind-icon" aria-hidden="true">🏭</span><span class="ind-title">Manufacturing</span></a>
+      <a href="pages/industries.html#logistics"     class="industry-card fade-up fade-up-d2" role="listitem" aria-label="Logistics"><span class="ind-icon" aria-hidden="true">🚚</span><span class="ind-title">Logistics</span></a>
+      <a href="pages/industries.html#government"    class="industry-card fade-up fade-up-d3" role="listitem" aria-label="Government"><span class="ind-icon" aria-hidden="true">🏛️</span><span class="ind-title">Government</span></a>
+    </div>
+    <div class="text-center" style="margin-top:44px;">
+      <a href="pages/industries.html" class="btn btn-outline-dark">Explore All Industries →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CASE STUDIES ═══════ -->
+<section class="section" style="background:var(--bg);" aria-labelledby="cs-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label fade-up">Proven Results</span>
+      <h2 class="section-title fade-up fade-up-d1" id="cs-heading">Client Success <span>Stories</span></h2>
+      <p class="section-sub mx-auto fade-up fade-up-d2">Real-world transformations and measurable business outcomes delivered across industries.</p>
+    </div>
+    <div class="grid-3">
+      <!-- CS 1 -->
+      <article class="cs-card-item fade-up fade-up-d1">
+        <div class="cs-header">
+          <p style="font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:8px;">FinTech · Fraud Detection</p>
+          <h3 style="font-size:1.1rem;font-weight:800;color:#fff;margin-bottom:8px;">AI-Powered Fraud Detection Platform</h3>
+          <p style="font-size:.85rem;opacity:.75;">Real-time ML-based fraud prevention for a private sector bank with 2M+ customers.</p>
+        </div>
+        <div class="cs-body">
+          <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:20px;line-height:1.65;">Replaced a rule-based fraud system with real-time ensemble ML models, cutting fraud losses by 73% while reducing false-positives by 91%.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="num">73%</div><div class="lbl">Fraud reduction</div></div>
+            <div class="cs-metric"><div class="num">50ms</div><div class="lbl">Score latency</div></div>
+            <div class="cs-metric"><div class="num">91%</div><div class="lbl">Fewer alerts</div></div>
+          </div>
+          <a href="pages/case-studies.html#fintech-case" class="btn btn-outline-dark btn-sm" style="margin-top:24px;display:inline-flex;">Read Case Study →</a>
+        </div>
+      </article>
+      <!-- CS 2 -->
+      <article class="cs-card-item fade-up fade-up-d2">
+        <div class="cs-header" style="background:linear-gradient(135deg,#2e7d32,#43a047);">
+          <p style="font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:8px;">Healthcare · HIS Modernisation</p>
+          <h3 style="font-size:1.1rem;font-weight:800;color:#fff;margin-bottom:8px;">Hospital Information System Overhaul</h3>
+          <p style="font-size:.85rem;opacity:.75;">Full HIS replacement for a 500-bed multi-specialty hospital — zero downtime migration.</p>
+        </div>
+        <div class="cs-body">
+          <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:20px;line-height:1.65;">Replaced a 12-year-old system with a cloud-native, ABDM-compliant HIS, cutting admin costs by 50% and eliminating ₹40L+ in annual billing errors.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="num">50%</div><div class="lbl">Cost reduction</div></div>
+            <div class="cs-metric"><div class="num">3M+</div><div class="lbl">Records managed</div></div>
+            <div class="cs-metric"><div class="num">100%</div><div class="lbl">ABDM compliant</div></div>
+          </div>
+          <a href="pages/case-studies.html#healthcare-case" class="btn btn-outline-dark btn-sm" style="margin-top:24px;display:inline-flex;">Read Case Study →</a>
+        </div>
+      </article>
+      <!-- CS 3 -->
+      <article class="cs-card-item fade-up fade-up-d3">
+        <div class="cs-header" style="background:linear-gradient(135deg,#e65100,#ff6d00);">
+          <p style="font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:8px;">Retail · Omnichannel Commerce</p>
+          <h3 style="font-size:1.1rem;font-weight:800;color:#fff;margin-bottom:8px;">Headless Commerce Platform Build</h3>
+          <p style="font-size:.85rem;opacity:.75;">Unified 200 stores on a single platform — 2.8× uplift in online conversion.</p>
+        </div>
+        <div class="cs-body">
+          <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:20px;line-height:1.65;">Built a scalable Next.js headless commerce platform with AI personalisation, real-time inventory sync, and zero downtime during Diwali peak sales.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="num">2.8×</div><div class="lbl">Conversion uplift</div></div>
+            <div class="cs-metric"><div class="num">99.99%</div><div class="lbl">Peak uptime</div></div>
+            <div class="cs-metric"><div class="num">₹12Cr</div><div class="lbl">Added revenue Y1</div></div>
+          </div>
+          <a href="pages/case-studies.html#ecommerce-case" class="btn btn-outline-dark btn-sm" style="margin-top:24px;display:inline-flex;">Read Case Study →</a>
+        </div>
+      </article>
+    </div>
+    <div class="text-center" style="margin-top:44px;">
+      <a href="pages/case-studies.html" class="btn btn-outline-dark">View All Case Studies →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ TECH STACK ═══════ -->
+<section class="section-sm" style="background:var(--surface);" aria-labelledby="tech-heading">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:36px;">
+      <span class="section-label fade-up">Technology Stack</span>
+      <h2 class="section-title fade-up fade-up-d1" id="tech-heading">Powered by <span>Leading Technologies</span></h2>
+    </div>
+    <div class="tech-logos fade-up fade-up-d2">
+      <span class="tech-logo-item">React / Next.js</span>
+      <span class="tech-logo-item">Node.js</span>
+      <span class="tech-logo-item">Python</span>
+      <span class="tech-logo-item">Java / Spring</span>
+      <span class="tech-logo-item">AWS</span>
+      <span class="tech-logo-item">Azure</span>
+      <span class="tech-logo-item">Google Cloud</span>
+      <span class="tech-logo-item">Kubernetes</span>
+      <span class="tech-logo-item">Docker</span>
+      <span class="tech-logo-item">TensorFlow</span>
+      <span class="tech-logo-item">PostgreSQL</span>
+      <span class="tech-logo-item">MongoDB</span>
+      <span class="tech-logo-item">Terraform</span>
+      <span class="tech-logo-item">Apache Kafka</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CTA ═══════ -->
+<section class="section cta-section" aria-labelledby="cta-heading">
+  <div class="container cta-inner">
+    <span class="badge fade-up">Get Started Today</span>
+    <h2 class="fade-up fade-up-d1" id="cta-heading">Let's Build Your <span>Digital Future</span></h2>
+    <p class="fade-up fade-up-d2">Partner with HNBC to accelerate your digital transformation. Get a free consultation and custom roadmap — no commitment required.</p>
+    <div class="hero-btns" style="justify-content:center;" >
+      <a href="pages/contact.html" class="btn btn-primary btn-lg fade-up fade-up-d3">Contact Us Today →</a>
+      <a href="pages/solutions.html" class="btn btn-outline btn-lg fade-up fade-up-d4">Explore Solutions</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/hnbc_logo.png" alt="HNBC Software Solutions Pvt Ltd" width="46" loading="lazy">
+        <p>Enterprise-grade software development, cloud transformation, and AI-powered solutions that drive digital transformation from Chennai, India.</p>
+        <div class="f-social" aria-label="Social media">
+          <a href="https://linkedin.com/company/hnbc-software-solutions" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+          <a href="https://twitter.com/hnbcsoftware" aria-label="Twitter / X" target="_blank" rel="noopener">𝕏</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="pages/services.html#custom">Custom Software Dev</a></li>
+          <li><a href="pages/services.html#cloud">Cloud Engineering</a></li>
+          <li><a href="pages/services.html#ai">AI &amp; ML Solutions</a></li>
+          <li><a href="pages/services.html#devops">DevOps &amp; Automation</a></li>
+          <li><a href="pages/services.html#mobile">Mobile Development</a></li>
+          <li><a href="pages/services.html#security">Cybersecurity</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="pages/about.html">About Us</a></li>
+          <li><a href="pages/solutions.html">Solutions</a></li>
+          <li><a href="pages/industries.html">Industries</a></li>
+          <li><a href="pages/case-studies.html">Case Studies</a></li>
+          <li><a href="pages/careers.html">Careers</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="mailto:hello@hnbcsoftware.com">hello@hnbcsoftware.com</a></li>
+          <li><a href="tel:+914411110000">+91 44 1111 0000</a></li>
+          <li><a href="pages/contact.html">Plot No 90, Thirumalai Nagar Annexe, 3rd Cross Street, Perungudi, Chennai – 600096, India</a></li>
+        </ul>
+        <div style="margin-top:24px;">
+          <p style="font-size:.78rem;color:rgba(255,255,255,.4);margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;">Newsletter</p>
+          <form id="newsletter-form" style="display:flex;gap:8px;">
+            <input type="email" name="email" placeholder="Your email" required aria-label="Email for newsletter" style="flex:1;padding:10px 14px;border-radius:7px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);color:#fff;font-size:.85rem;outline:none;font-family:'Inter',sans-serif;">
+            <button type="submit" class="btn btn-primary" style="padding:10px 16px;font-size:.85rem;" aria-label="Subscribe">→</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HNBC Software Solutions Pvt Ltd. All rights reserved.</p>
+      <div style="display:flex;gap:20px;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════ WIDGETS ═══════ -->
+<button id="back-top" aria-label="Back to top">↑</button>
+<a href="https://wa.me/914411110000?text=Hello%20HNBC!%20I%27d%20like%20to%20know%20more%20about%20your%20services." id="wa-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
